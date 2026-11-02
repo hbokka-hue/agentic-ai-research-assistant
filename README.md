@@ -1,67 +1,56 @@
-# Agentic AI Research Assistant
 
-## 1. Introduction
-An Agentic AI Research Assistant is an AI-based system that can understand a research question, plan tasks, gather information using available tools, and prepare a structured report.
+## 13. Python Implementation
 
-## 2. Problem Statement
-Research requires searching multiple sources, organizing information, comparing findings, and writing summaries. These tasks can be time-consuming when performed manually.
+This project includes a working Python prototype of an Agentic AI Research Assistant.
 
-## 3. Objectives
-- Explore how Agentic AI can support research.
-- Explain how an AI agent plans and performs tasks.
-- Demonstrate the role of tools and information sources.
-- Identify the benefits, risks, and limitations of research agents.
+### Features
+- Accepts research questions from users.
+- Creates a research plan.
+- Selects a knowledge retrieval tool.
+- Searches a local research knowledge base.
+- Analyzes retrieved information.
+- Generates and saves research reports.
 
-## 4. Proposed Solution
-The proposed system accepts a research question, creates a plan, searches approved information sources, organizes findings, and produces a report with references. A human reviews the report before using it.
+### Project Structure
 
-## 5. Main Components
-- **AI Agent:** Coordinates the research workflow.
-- **Language Model:** Interprets questions and helps summarize information.
-- **Search Tool:** Retrieves information from permitted sources.
-- **Analysis Module:** Compares and organizes findings.
-- **Report Generator:** Produces a structured research report.
-- **Human Reviewer:** Checks accuracy and source quality.
+```text
+agentic-ai-research-assistant/
+├── README.md
+├── case-study.md
+├── main.py
+├── agent.py
+├── tools.py
+├── knowledge_base.json
+├── requirements.txt
+├── .gitignore
+└── reports/
+```
 
-## 6. Workflow
-1. The user submits a research question.
-2. The agent identifies the topic and plans the research.
-3. It searches available sources using approved tools.
-4. It gathers and organizes relevant information.
-5. It compares findings and identifies gaps.
-6. It prepares a report with source references.
-7. The user reviews the report for accuracy.
+### Requirements
+- Python 3.10 or later
 
-## 7. Example Scenario
-A student asks the agent to research applications of Agentic AI in education. The agent plans the task, searches relevant educational and technical sources, groups findings into themes, and prepares a report. The student verifies the references before submitting the work.
+### How to Run
 
-## 8. Benefits
-- Reduces repetitive research tasks.
-- Organizes information efficiently.
-- Helps compare findings from multiple sources.
-- Produces structured reports.
-- Allows users to focus on critical analysis.
+Activate the virtual environment:
 
-## 9. Challenges and Limitations
-- Sources may contain incorrect or outdated information.
-- The AI may misinterpret evidence.
-- Generated citations may be inaccurate unless verified.
-- Access to some sources may be restricted.
-- Human review remains important.
+```powershell
+.venv\Scripts\Activate.ps1
+```
 
-## 10. Ethical Considerations
-The system should respect source permissions, protect private information, distinguish evidence from assumptions, and cite sources accurately. Users should review the output rather than treating every generated claim as correct.
+Run the application:
 
-## 11. Evaluation Metrics
-The system can be evaluated using:
-- Relevance of retrieved sources.
-- Factual accuracy of the report.
-- Citation correctness.
-- Time required to complete the research.
-- Completeness of the final report.
-- User satisfaction.
+```powershell
+python main.py
+```
 
-These metrics should be measured during testing.
+Enter a research question when prompted.
 
-## 12. Conclusion
-An Agentic AI Research Assistant can help users plan research, retrieve information, analyze findings, and create structured reports. Its usefulness depends on reliable tools, trustworthy sources, accurate citations, and human supervision.
+Type `exit` to close the application.
+
+### Generated Reports
+
+Research reports are saved in the `reports/` directory.
+
+### Current Implementation
+
+This is a local prototype using keyword-based retrieval and a predefined knowledge base. It does not yet connect to a live search engine or an external language model.
