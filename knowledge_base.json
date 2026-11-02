@@ -1,0 +1,33 @@
+
+[
+  {
+    "title": "Agentic AI Fundamentals",
+    "topic": "agentic ai",
+    "content": "Agentic AI refers to AI systems that can pursue goals by planning tasks, making decisions, using tools, and adapting their actions based on results. AI agents can operate with varying levels of autonomy and human supervision.",
+    "source": "IBM - Artificial Intelligence"
+  },
+  {
+    "title": "AI Agents in Education",
+    "topic": "education",
+    "content": "AI agents can support education through personalized learning assistance, tutoring, study planning, feedback generation, and administrative support. Human educators should supervise important educational decisions.",
+    "source": "Educational AI Research Overview"
+  },
+  {
+    "title": "AI Agents in Healthcare",
+    "topic": "healthcare",
+    "content": "AI agents can assist healthcare workflows by organizing information, supporting administrative tasks, and helping retrieve relevant medical information. Clinical decisions require qualified healthcare professional oversight.",
+    "source": "Healthcare AI Research Overview"
+  },
+  {
+    "title": "Multi-Agent Systems",
+    "topic": "multi agent systems",
+    "content": "Multi-agent systems consist of multiple specialized agents that communicate or coordinate to solve complex problems. Different agents may handle planning, searching, analysis, and report generation.",
+    "source": "Multi-Agent Systems Overview"
+  },
+  {
+    "title": "AI Agent Challenges",
+    "topic": "challenges",
+    "content": "AI agents can produce incorrect outputs, misuse tools, or misunderstand instructions. Important challenges include privacy, security, reliability, evaluation, and the need for human oversight.",
+    "source": "AI Safety Research Overview"
+  }
+]
